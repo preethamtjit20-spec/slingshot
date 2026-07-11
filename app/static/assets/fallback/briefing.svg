@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" role="img" aria-label="Threat Briefing card (fallback)">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#05121f"/>
+      <stop offset="1" stop-color="#0a1f33"/>
+    </linearGradient>
+    <radialGradient id="rock" cx="0.38" cy="0.34" r="0.72">
+      <stop offset="0" stop-color="#5a6270"/>
+      <stop offset="0.55" stop-color="#39414d"/>
+      <stop offset="1" stop-color="#1c2129"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="640" height="400" fill="url(#bg)"/>
+  <!-- subtle grid -->
+  <g stroke="#0f3350" stroke-width="1" opacity="0.5">
+    <path d="M0 100 H640 M0 200 H640 M0 300 H640"/>
+    <path d="M160 0 V400 M320 0 V400 M480 0 V400"/>
+  </g>
+
+  <!-- frame -->
+  <rect x="12" y="12" width="616" height="376" fill="none" stroke="#16b8d4" stroke-width="1.5" opacity="0.85" rx="6"/>
+  <rect x="12" y="12" width="616" height="376" fill="none" stroke="#16b8d4" stroke-width="4" opacity="0.12" rx="6"/>
+
+  <!-- corner ticks -->
+  <g stroke="#28e0ff" stroke-width="2" fill="none">
+    <path d="M26 26 h22 M26 26 v22"/>
+    <path d="M614 26 h-22 M614 26 v22"/>
+    <path d="M26 374 h22 M26 374 v-22"/>
+    <path d="M614 374 h-22 M614 374 v-22"/>
+  </g>
+
+  <!-- header -->
+  <text x="40" y="58" font-family="'Consolas','Courier New',monospace" font-size="13" letter-spacing="3" fill="#5fd0e6">SLINGSHOT // PLANETARY DEFENSE</text>
+  <text x="40" y="92" font-family="'Segoe UI',Arial,sans-serif" font-size="30" font-weight="700" letter-spacing="2" fill="#e9fbff" filter="url(#glow)">THREAT BRIEFING</text>
+  <rect x="40" y="104" width="560" height="2" fill="#16b8d4" opacity="0.7"/>
+
+  <!-- asteroid glyph -->
+  <g transform="translate(492 236)">
+    <circle r="66" fill="none" stroke="#16b8d4" stroke-width="1" opacity="0.25"/>
+    <circle r="52" fill="url(#rock)" stroke="#20323f" stroke-width="1.5"/>
+    <g fill="#232a33" opacity="0.85">
+      <circle cx="-16" cy="-12" r="9"/>
+      <circle cx="12" cy="6" r="12"/>
+      <circle cx="-6" cy="22" r="6"/>
+      <circle cx="22" cy="-20" r="5"/>
+      <circle cx="-28" cy="14" r="4.5"/>
+    </g>
+    <path d="M-70 -30 A78 78 0 0 1 44 -60" fill="none" stroke="#28e0ff" stroke-width="1.5" stroke-dasharray="4 6" opacity="0.8"/>
+    <circle cx="44" cy="-60" r="3" fill="#28e0ff"/>
+  </g>
+
+  <!-- fields -->
+  <g font-family="'Consolas','Courier New',monospace">
+    <g transform="translate(40 150)">
+      <text font-size="12" letter-spacing="2" fill="#4f93ad">DESIGNATION</text>
+      <text y="26" font-size="22" font-weight="700" fill="#e9fbff">— — —</text>
+    </g>
+    <g transform="translate(40 210)">
+      <text font-size="12" letter-spacing="2" fill="#4f93ad">DIAMETER</text>
+      <text y="26" font-size="22" font-weight="700" fill="#e9fbff">—.— km</text>
+    </g>
+    <g transform="translate(40 270)">
+      <text font-size="12" letter-spacing="2" fill="#4f93ad">VELOCITY</text>
+      <text y="26" font-size="22" font-weight="700" fill="#e9fbff">—.— km/s</text>
+    </g>
+    <g transform="translate(40 330)">
+      <text font-size="12" letter-spacing="2" fill="#4f93ad">TORINO</text>
+      <text y="26" font-size="22" font-weight="700" fill="#ffb454">— / 10</text>
+    </g>
+  </g>
+
+  <text x="614" y="374" text-anchor="end" font-family="'Consolas','Courier New',monospace" font-size="10" letter-spacing="2" fill="#3a6a80">THREAT BRIEFING · STANDBY</text>
+</svg>

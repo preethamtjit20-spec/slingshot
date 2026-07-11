@@ -1,0 +1,122 @@
+[
+  {
+    "id": "2099942",
+    "name": "99942 Apophis (2004 MN4)",
+    "est_diameter_min": 0.3401567546,
+    "est_diameter_max": 0.7605341462,
+    "relative_velocity": 7.4223,
+    "miss_distance": 31600.0,
+    "absolute_magnitude": 19.7,
+    "hazardous": true
+  },
+  {
+    "id": "54509737",
+    "name": "(2026 PDC)",
+    "est_diameter_min": 0.34,
+    "est_diameter_max": 0.76,
+    "relative_velocity": 19.4,
+    "miss_distance": 71900.0,
+    "absolute_magnitude": 21.3,
+    "hazardous": true
+  },
+  {
+    "id": "2101955",
+    "name": "101955 Bennu (1999 RQ36)",
+    "est_diameter_min": 0.4728880028,
+    "est_diameter_max": 0.5054152697,
+    "relative_velocity": 11.62,
+    "miss_distance": 480000.0,
+    "absolute_magnitude": 20.9,
+    "hazardous": true
+  },
+  {
+    "id": "2001862",
+    "name": "1862 Apollo (1932 HA)",
+    "est_diameter_min": 1.2662,
+    "est_diameter_max": 2.8312,
+    "relative_velocity": 16.31,
+    "miss_distance": 5321000.0,
+    "absolute_magnitude": 16.25,
+    "hazardous": true
+  },
+  {
+    "id": "3542519",
+    "name": "(2010 PK9)",
+    "est_diameter_min": 0.1918658094,
+    "est_diameter_max": 0.4290206479,
+    "relative_velocity": 23.87,
+    "miss_distance": 4180000.0,
+    "absolute_magnitude": 21.8,
+    "hazardous": true
+  },
+  {
+    "id": "3726710",
+    "name": "(2015 RC)",
+    "est_diameter_min": 0.0154789995,
+    "est_diameter_max": 0.0346139841,
+    "relative_velocity": 5.44,
+    "miss_distance": 12100000.0,
+    "absolute_magnitude": 27.5,
+    "hazardous": false
+  },
+  {
+    "id": "3092188",
+    "name": "(2001 QP153)",
+    "est_diameter_min": 0.0530408303,
+    "est_diameter_max": 0.1186082063,
+    "relative_velocity": 9.11,
+    "miss_distance": 28800000.0,
+    "absolute_magnitude": 24.8,
+    "hazardous": false
+  },
+  {
+    "id": "3837605",
+    "name": "(2019 AC3)",
+    "est_diameter_min": 0.0086037128,
+    "est_diameter_max": 0.0192392527,
+    "relative_velocity": 6.82,
+    "miss_distance": 3450000.0,
+    "absolute_magnitude": 28.8,
+    "hazardous": false
+  },
+  {
+    "id": "2415029",
+    "name": "415029 (2011 UL21)",
+    "est_diameter_min": 1.083,
+    "est_diameter_max": 2.421,
+    "relative_velocity": 26.72,
+    "miss_distance": 6600000.0,
+    "absolute_magnitude": 17.0,
+    "hazardous": true
+  },
+  {
+    "id": "3986543",
+    "name": "(2020 QG)",
+    "est_diameter_min": 0.0029,
+    "est_diameter_max": 0.0062,
+    "relative_velocity": 12.4,
+    "miss_distance": 2950.0,
+    "absolute_magnitude": 29.9,
+    "hazardous": false
+  },
+  {
+    "id": "3729331",
+    "name": "(2015 TB145)",
+    "est_diameter_min": 0.4909306691,
+    "est_diameter_max": 0.7101907953,
+    "relative_velocity": 35.07,
+    "miss_distance": 486000.0,
+    "absolute_magnitude": 19.9,
+    "hazardous": true
+  },
+  {
+    "id": "3771633",
+    "name": "(2017 BX)",
+    "est_diameter_min": 0.0132679042,
+    "est_diameter_max": 0.0296682211,
+    "relative_velocity": 8.16,
+    "miss_distance": 9700000.0,
+    "absolute_magnitude": 27.8,
+    "hazardous": false
+  }
+]

@@ -1,0 +1,50 @@
+# Secrets — NEVER commit (public repo). Keys load from env / Secret Manager.
+.env
+.env.*
+!.env.template
+*.key
+*-key.json
+*credentials*.json
+service-account*.json
+application_default_credentials.json
+secrets/
+.kaggle/
+kaggle.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+
+# Node / build
+node_modules/
+dist/
+build/
+
+# Logs / local data / big media caches
+*.log
+logs/
+tmp/
+.cache/
+app/static/assets/gen/
+app/verify_media_tmp.py
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# local-only (not shipped)
+PITCH.md
+app/verify_live.py
+e2e_test.py
+
+record_demo.py
+docs/video/
+app/verify_orchestration.py
